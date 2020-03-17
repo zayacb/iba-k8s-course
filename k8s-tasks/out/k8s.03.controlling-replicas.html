@@ -334,7 +334,7 @@
   </style>
 </head>
 <body>
-<h1 id="replication-controllers">Replication Controllers</h1>
+<h1 id="controlling-replicas">Controlling Replicas</h1>
 <h2 id="reference-info">Reference Info</h2>
 <ul>
 <li><strong>Getting Started with Kubernetes - Second Edition</strong>:
@@ -342,14 +342,34 @@
 <li><strong>Chapter 2</strong>: Pods, Services, Replication Controllers, and Labels</li>
 </ul></li>
 <li><a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/">Kubernetes ReplicationController</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/">Kubernetes ReplicaSet</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Kubernetes Deployment</a></li>
 </ul>
 <h2 id="tasks">Tasks</h2>
+<h3 id="replicationcontrollers">ReplicationControllers</h3>
 <ul>
-<li>Create a YAML file using Nginx web server image as a basis. replicas=3</li>
-<li>Get description of RC/nginx, check Pods status and events</li>
-<li>Change the number of replicas of RC from 3 to 5 pods (Two ways)</li>
-<li>Learn the behavior of RC by deleting two nginx pods</li>
+<li>Create a YAML file using Nginx web server image as a basis. Use 2 replicas</li>
+<li>Get description of rc/nginx, check Pods status and events</li>
+<li>Change the number of replicas of rc/nginx from 2 to 3 to 4 to 5 pods using different methods:
+<ul>
+<li><code>kubectl apply</code></li>
+<li><code>kubectl edit</code></li>
+<li>Dashboard</li>
+</ul></li>
+<li>Learn the behavior of ReplicationControlles by deleting two nginx pods</li>
 <li>Check the number of replicas</li>
+</ul>
+<h3 id="deployments-replicasets">Deployments &amp; ReplicaSets</h3>
+<ul>
+<li>Perform the same set of actions as above but using Deployment instead of ReplicationControllers. Use <code>nginx:1.16.1</code> as a version of container to deploy. As a result you should have Deployment with 5 nginx:1.16.1 containers.</li>
+<li>Check the status of Deployment and underlying ReplicaSet</li>
+<li><em>Scale</em> deployment back to 3 replicas using <code>kubectl scale</code> command</li>
+<li>Update image to <code>nginx:1.17.19</code> using different methods
+<ul>
+<li><code>kubectl set</code></li>
+<li><code>kubectl edit</code></li>
+</ul></li>
+<li>Get rollout status of the deployment after update</li>
 </ul>
 <p>Provide the output of all the tasks above in the text file to the tutor. Provide all YAML files as well</p>
 </body>
