@@ -8,8 +8,10 @@ TASKS_DIRS=(
   "helm-tasks"
 )
 
-srcfile="${ROOT_DIR}/k8s-tasks/src/k8s.03.replication-controllers.md"
-outfile="${ROOT_DIR}/.build/out.html"
+if ! which pandoc; then
+  echo "\"pandoc\" was not found. Pls install and retry. Aborting..."
+  exit 1
+fi
 
 for tasks_dir in "${TASKS_DIRS[@]}"; do
   outdir="${ROOT_DIR}/${tasks_dir}/out"
