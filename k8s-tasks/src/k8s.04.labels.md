@@ -8,22 +8,37 @@
 
 ## Tasks
 
-* Create a new one Nginx Replication controller with 3 replicas, add label to it: 
+* Create a new Nginx Deployment with 3 replicas and the following labels:
 
-  ```
-  app: Nginx
-  ```
+    ```
+    # Deployment label:
+    app: nginx-deployment
+    component: deployment
 
-* Deploy updated Nginx Replication Controller to the namespace
-* Run a command to print only pods which contain this label
+    # Pod template label:
+    app: nginx-deployment
+    component: pod
+
+    # Make sure selector chooses pods by label:
+    app: nginx-deployment
+    ```
+
+* Run a command to filter pods based on label and make sure output includes all labels
 * Edit one of the pod to add a new label in real time:
 
-  ```
-  component: Education
-  ```
+    ```
+    purpose: education
+    ```
 
-* Display only pod which was created on the previous task
-* Delete the pod from the task 4 by label (**component: Education**)
+* Display only pod which was created on the previous task. Display all pods in the namespace and show labels
+* Delete the pod by label (**pupose: education**)
 * Get all pods wich contain label from the task 1: How many pods were printed? Why?
+* Overwrite label for one of the pods, set it to the following:
+
+    ```
+    app: nginx-development-debug
+    ```
+
+  What happens next? How this process might be used?
 
 Provide the output of all the tasks above in the text file to the tutor. Provide all YAML files as well

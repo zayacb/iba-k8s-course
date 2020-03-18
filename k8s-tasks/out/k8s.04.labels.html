@@ -345,20 +345,27 @@
 </ul>
 <h2 id="tasks">Tasks</h2>
 <ul>
-<li>Create a new one Nginx Replication controller with 3 replicas, add label to it:</li>
-</ul>
-<p><code>app: Nginx</code></p>
-<ul>
-<li>Deploy updated Nginx Replication Controller to the namespace</li>
-<li>Run a command to print only pods which contain this label</li>
-<li>Edit one of the pod to add a new label in real time:</li>
-</ul>
-<p><code>component: Education</code></p>
-<ul>
-<li>Display only pod which was created on the previous task</li>
-<li>Delete the pod from the task 4 by label (<strong>component: Education</strong>)</li>
+<li><p>Create a new Nginx Deployment with 3 replicas and the following labels:</p>
+<pre><code># Deployment label:
+app: nginx-deployment
+component: deployment
+
+# Pod template label:
+app: nginx-deployment
+component: pod
+
+# Make sure selector chooses pods by label:
+app: nginx-deployment</code></pre></li>
+<li>Run a command to filter pods based on label and make sure output includes all labels</li>
+<li><p>Edit one of the pod to add a new label in real time:</p>
+<pre><code>purpose: education</code></pre></li>
+<li>Display only pod which was created on the previous task. Display all pods in the namespace and show labels</li>
+<li>Delete the pod by label (<strong>pupose: education</strong>)</li>
 <li>Get all pods wich contain label from the task 1: How many pods were printed? Why?</li>
+<li><p>Overwrite label for one of the pods, set it to the following:</p>
+<pre><code>app: nginx-development-debug</code></pre></li>
 </ul>
+<p>What happens next? How this process might be used?</p>
 <p>Provide the output of all the tasks above in the text file to the tutor. Provide all YAML files as well</p>
 </body>
 </html>
