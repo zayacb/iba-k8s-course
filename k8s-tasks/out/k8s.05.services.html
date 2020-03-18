@@ -343,15 +343,20 @@
 </ul></li>
 <li><a href="https://kubernetes.io/docs/concepts/services-networking/service/">Kubernetes Services</a></li>
 <li><a href="https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/">Use Port Forwarding to Access Applications in a Cluster</a></li>
+<li><a href="https://blog.learnk8s.io/connect-service-kubernetes-7cb346cf2f64">How to connect to your Kubernetes services?</a></li>
 </ul>
 <h2 id="tasks">Tasks</h2>
 <ul>
-<li>Create a service for the Nginx Replication Controller in two ways (Manually using YAML file, kubectl command)</li>
+<li>Create a service for the Nginx Deployment in two ways:
+<ul>
+<li>YAML file</li>
+<li>kubectl command</li>
+</ul></li>
 <li>Deploy the service to the namespace and check it using kubectl</li>
-<li>Connect to nginx pod via locally forwarded port</li>
-<li>In a new shell delete the pod</li>
-<li>Connect to nginx pod through service</li>
-<li>Try to delete the pod again, explain the difference</li>
+<li>Connect to nginx pod via locally forwarded port using <code>nc</code> and open the page in browser</li>
+<li>In a new shell delete the pod you are connected to. What happens to connection &amp; the page?</li>
+<li>Connect to nginx pod through service. Connect &amp; check the page</li>
+<li>Delete all pods (via selector), connect &amp; check the page. Explain the difference</li>
 </ul>
 <p>Provide the output of all the tasks above in the text file to the tutor. Provide all YAML files as well</p>
 </body>
