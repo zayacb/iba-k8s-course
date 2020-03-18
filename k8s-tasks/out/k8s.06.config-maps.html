@@ -343,11 +343,12 @@
 <ul>
 <li>Create a ConfigMap YAML file</li>
 <li>Add two files to the config map: the name of files (<code>name.txt</code>, <code>surname.txt</code>), content (<em>your name</em>, <em>you surname</em>)</li>
-<li>Add the ConfigMap to the Nginx Replication Controller YAML file</li>
-<li>Deploy new Nginx RC with ConfigMap to the namespace (use 1 replica)</li>
-<li>Delete two files inside the nginx pod</li>
-<li>Restart the pod</li>
-<li>Find the files into the pod</li>
+<li>Add the ConfigMap to the Nginx Deployment YAML file</li>
+<li>Deploy new Nginx Deployment with ConfigMap to the namespace (use 1 replica)</li>
+<li>Get full info about the Pod where ConfigMap mounts are shown</li>
+<li>Get inside the container and output the files from ConfigMap mound</li>
+<li>Try to delete two files inside the nginx pod. What happens?</li>
+<li>Update ConfigMaps value and examine the pod</li>
 </ul>
 <p>Provide the output of all the tasks above in the text file to the tutor. Provide all YAML files as well</p>
 </body>
