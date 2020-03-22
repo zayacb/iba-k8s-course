@@ -8,7 +8,7 @@ TASKS_DIRS=(
   "helm-tasks"
 )
 
-if ! which pandoc; then
+if ! which pandoc > /dev/null 2>&1; then
   echo "\"pandoc\" was not found. Pls install and retry. Aborting..."
   exit 1
 fi
