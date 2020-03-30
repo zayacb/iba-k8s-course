@@ -6,7 +6,7 @@
 
 ## Tasks
 
-* Create the ingress for nginx replication controller
+* Create the ingress for Nginx Deployment
 * Deploy the ingress to the namespace
 * Connect to the Nginx pod through the ingress
 
