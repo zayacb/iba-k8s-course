@@ -6,6 +6,7 @@ TASKS_DIRS=(
   "docker-tasks"
   "k8s-tasks"
   "helm-tasks"
+  "openshift-tasks"
 )
 
 if ! which pandoc > /dev/null 2>&1; then
