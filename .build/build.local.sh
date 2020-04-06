@@ -18,6 +18,7 @@ for tasks_dir in "${TASKS_DIRS[@]}"; do
   outdir="${ROOT_DIR}/${tasks_dir}/out"
   srcdir="${ROOT_DIR}/${tasks_dir}/src"
 
+  mkdir -p "${outdir}"
   rm -f "${outdir}"/*
   for srcfile in $(ls "${srcdir}"); do
     outfile="${srcfile%.*}.html"
