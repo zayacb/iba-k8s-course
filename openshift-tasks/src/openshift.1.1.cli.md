@@ -7,8 +7,6 @@
 
 ## Reference Info
 
-* [Getting started with the CLI](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/getting-started-cli.html)
-* [Enable autocompletion](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/configuring-cli.html)
 * [OpenShift CLI (OC)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/cli_tools/openshift-cli-oc)
 * [Developer CLI commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/developer-cli-commands.html)
 * [Administrator CLI commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/administrator-cli-commands.html)
