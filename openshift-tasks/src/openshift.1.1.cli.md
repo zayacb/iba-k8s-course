@@ -18,7 +18,7 @@
 * Install `oc` client
 * Show `oc` version
 * (Optional) Setup autocompletion
-* Start OpenShift Playground and use Web Console to find out login command
+* Start [OpenShift Playground](https://learn.openshift.com/playgrounds/) and use Web Console to find out login command
 * Connect to Playground instance via local `oc`
 * Identify contexts and the current context
 * Get status of OpenShift instance
