@@ -8,6 +8,7 @@
 ## Reference Info
 
 * [OpenShift CLI (OC)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/cli_tools/openshift-cli-oc)
+* [Enable autocompletion](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/configuring-cli.html)
 * [Developer CLI commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/developer-cli-commands.html)
 * [Administrator CLI commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/administrator-cli-commands.html)
 * [Usage of oc and kubectl commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/usage-oc-kubectl.html)
