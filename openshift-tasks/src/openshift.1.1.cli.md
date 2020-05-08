@@ -7,9 +7,8 @@
 
 ## Reference Info
 
-* [Getting started with the CLI](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/getting-started-cli.html)
-* [Enable autocompletion](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/configuring-cli.html)
 * [OpenShift CLI (OC)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/cli_tools/openshift-cli-oc)
+* [Enable autocompletion](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/configuring-cli.html)
 * [Developer CLI commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/developer-cli-commands.html)
 * [Administrator CLI commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/administrator-cli-commands.html)
 * [Usage of oc and kubectl commands](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/usage-oc-kubectl.html)
@@ -20,7 +19,7 @@
 * Install `oc` client
 * Show `oc` version
 * (Optional) Setup autocompletion
-* Start OpenShift Playground and use Web Console to find out login command
+* Start [OpenShift Playground](https://learn.openshift.com/playgrounds/) and use Web Console to find out login command
 * Connect to Playground instance via local `oc`
 * Identify contexts and the current context
 * Get status of OpenShift instance

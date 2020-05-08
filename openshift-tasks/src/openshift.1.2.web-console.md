@@ -14,7 +14,7 @@
 
 > All tasks should be performed via Web Console unless explicitly stated otherwise
 
-* Log into Web Console under Developer & Administrator accounts. Mind the difference in access.
+* Log into [Web Console](https://learn.openshift.com/playgrounds/openshift42/) under Developer & Administrator accounts. Mind the difference in access.
 * Switch between Developer & Administrator perspectives. What perspective should one
     one use to reach the following and what is the path through menus (e.g. 
     _Home/Dashboards_):

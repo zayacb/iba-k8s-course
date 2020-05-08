@@ -16,3 +16,4 @@ aforementioned learning portal to familiarise yourself with the learning
 environment:
     * [Foundations of OpenShift/Logging in to an OpenShift Cluster](https://learn.openshift.com/introduction/cluster-access/)
 * (_Optional_) Install and run CRC instance on your machine (might require 16GB RAM)
+    * [Red Hat OpenShift 4 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
