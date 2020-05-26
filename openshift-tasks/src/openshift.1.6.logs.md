@@ -17,5 +17,9 @@
 * View deployment logs via `oc` tool
 * View log of individual redis pods via `oc` tool
 * Log into Web Console and get the same logs via GUI
+<<<<<<< HEAD
+=======
+**Use CRC for the next tasks as PG has StorageClass issue**
+>>>>>>> parent of 0adf398... Update openshift.1.6.logs.md
 * Deploy cluster logging
 * Get logs from **fluentd**
