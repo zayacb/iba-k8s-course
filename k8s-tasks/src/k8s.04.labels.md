@@ -31,8 +31,8 @@
     ```
 
 * Display only pod which was created on the previous task. Display all pods in the namespace and show labels
-* Delete the pod by label (**pupose: education**)
-* Get all pods wich contain label from the task 1: How many pods were printed? Why?
+* Delete the pod by label (**purpose: education**)
+* Get all pods which contain label from the task 1: How many pods were printed? Why?
 * Overwrite label for one of the pods, set it to the following:
 
     ```
