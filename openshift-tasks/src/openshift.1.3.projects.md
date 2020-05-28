@@ -11,7 +11,7 @@
 
 ## Tasks
 
-* Create project from GUI (Developer perspective)
+* Create project from [GUI](https://learn.openshift.com/playgrounds/openshift42/) (Developer perspective)
 * Create another project from GUI (Admin perspective)
 * Create yet another project from CLI
 * Check what is the the current project set in CLI
