@@ -17,5 +17,9 @@
 * View deployment logs via `oc` tool
 * View log of individual redis pods via `oc` tool
 * Log into Web Console and get the same logs via GUI
+
+**Use CRC for the following tasks since PG has a StorageClass problem**
+
+
 * Deploy cluster logging
 * Get logs from **fluentd**
