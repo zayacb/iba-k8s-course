@@ -12,6 +12,7 @@
 * [Viewing system event information in an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.2/nodes/clusters/nodes-containers-events.html)
 * [DeploymentConfigs](https://docs.openshift.com/container-platform/4.2/applications/deployments/what-deployments-are.html#deployments-and-deploymentconfigs_what-deployments-are)
 
+
 ## Tasks
 
 * Follow instructions in playground to create new project then switch to it and deploy
@@ -25,3 +26,4 @@
 * Get information about deploymentConfigs from the dump. Get all deploymentConfigs using `oc` tool
     and output them into JSON. Are these JSONs the same?
 * Describe deploymentConfig via `oc`. Is the information the same as in the previous case?
+

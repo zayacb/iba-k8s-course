@@ -28,7 +28,7 @@
   nginx:1.16.1 containers.
 * Check the status of Deployment and underlying ReplicaSet
 * _Scale_ deployment back to 3 replicas using `kubectl scale` command
-* Update image to `nginx:1.17.19` using different methods
+* Update image to `nginx:1.18.0` using different methods
     * `kubectl set`
     * `kubectl edit`
 * Get rollout status of the deployment after update
