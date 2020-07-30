@@ -12,9 +12,9 @@
     * Customize the chart to use your preferred configuration: Get options which are configurable
 * Part 2
     * Install MySQL chart to kubernetes cluster in education namespace: Add your own release name,
-    * Add MariaDB user and database, using `--values` or `--set`, Get status of it, Get list what has 
+    * Add MySQL user and database, using `--values` or `--set`, Get status of it, Get list what has 
       been released using helm.
-    * Change the configuration of the release above: Change MariaDB user and database, Run command 
+    * Change the configuration of the release above: Change MySQL user and database, Run command 
       to see whether that new setting took effect, Roll back to a previous release.
     * Delete a release from the cluster: Get list of releases, Remove a release
 
