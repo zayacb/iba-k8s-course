@@ -7,6 +7,7 @@
 ## Tasks
 
 * Install helm client to your local machine
-* Initialize Helm the local CLI `--client-only`
+* Check the installed version of helm
+* Learn more about helm operations by running `helm --help` 
 
 Provide the output of all the tasks above in the text file to the tutor.
